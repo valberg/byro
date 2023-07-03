@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - add_missing_jquery_ui_images
   pull_request:
     types: [opened, synchronize, reopened]
 
